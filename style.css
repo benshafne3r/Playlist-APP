@@ -1,0 +1,91 @@
+/* Apply the "Archivo" font globally */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Archivo', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #000; /* Ensuring the title is black */
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 75%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+button {
+    width: 20%;
+    padding: 12px;
+    background-color: #ff5a5f; /* Cool, modern red color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e04a4f;
+    transform: translateY(-2px); /* Adds a subtle lift effect on hover */
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#results {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-weight: 500;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
